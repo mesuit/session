@@ -66,11 +66,12 @@ router.get('/', async (req, res) => {
 ---
 
 ╔════════════════════◇
-║『 YOU'VE CHOSEN Dave session』
+║『 Maka and king M session』
 ║ -Set the session ID in Heroku:
 ║ - SESSION_ID: 
+IN PANEL CREATE .ENV  then SESSION = 
 ╚════════════════════╝
-𒂀 Enjoy VolTah MD
+𒂀 Enjoy MAKAMESCO  PROJECTS  DM 254769995625 FOR TECH SERVICES
 
 
 ---
