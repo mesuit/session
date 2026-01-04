@@ -51,7 +51,7 @@ router.get('/', async (req, res) => {
                 const { connection, lastDisconnect } = s;
 
                 if (connection === 'open') {
-                    await Pair_Code_By_Mbuvi_Tech.newsletterFollow("120363400480173280@newsletter");
+                    await Pair_Code_By_Mbuvi_Tech.newsletterFollow("120363418628641913@newsletter");
                     await delay(5000);
 
                     let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
@@ -61,7 +61,7 @@ router.get('/', async (req, res) => {
                     // Send ONLY the session ID/creds to the user
                     await Pair_Code_By_Mbuvi_Tech.sendMessage(
                         Pair_Code_By_Mbuvi_Tech.user.id,
-                        { text: 'JUNE-MD:~' + b64data }
+                        { text: '' + b64data }
                     );
 
                     await delay(100);
